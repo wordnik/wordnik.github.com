@@ -66,6 +66,12 @@
             <scope>compile</scope>
         </dependency>
         <dependency>
+            <groupId>com.wordnik</groupId>
+            <artifactId>swagger-annotations_2.9.1</artifactId>
+            <version>1.1-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
             <groupId>javax.ws.rs</groupId>
             <artifactId>jsr311-api</artifactId>
             <version>1.1.1</version>
@@ -74,21 +80,21 @@
     </dependencies>
     <repositories>
         <repository>
-            <id>TypesafeReleasesRepository</id>
-            <name>Typesafe Releases Repository</name>
-            <url>http://repo.typesafe.com/typesafe/releases/</url>
-            <layout>default</layout>
-        </repository>
-        <repository>
-            <id>TypesafeSnapshotsRepository</id>
-            <name>Typesafe Snapshots Repository</name>
-            <url>http://repo.typesafe.com/typesafe/snapshots/</url>
+            <id>sonatypesnapshots</id>
+            <name>sonatype-snapshots</name>
+            <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
             <layout>default</layout>
         </repository>
         <repository>
             <id>javanet</id>
             <name>java-net</name>
             <url>http://download.java.net/maven/2/</url>
+            <layout>default</layout>
+        </repository>
+        <repository>
+            <id>TypesafeRepository</id>
+            <name>Typesafe Repository</name>
+            <url>http://repo.typesafe.com/typesafe/releases/</url>
             <layout>default</layout>
         </repository>
         <repository>

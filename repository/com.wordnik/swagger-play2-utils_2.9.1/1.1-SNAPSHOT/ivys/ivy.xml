@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ivy-module version="2.0" xmlns:e="http://ant.apache.org/ivy/extra">
-	<info organisation="com.wordnik" module="swagger-play2-utils_2.9.1" revision="1.1-SNAPSHOT" status="release" publication="20120527222815">
+	<info organisation="com.wordnik" module="swagger-play2-utils_2.9.1" revision="1.1-SNAPSHOT" status="release" publication="20120531054436">
 		<description>
 		swagger-play2-utils
 		</description>

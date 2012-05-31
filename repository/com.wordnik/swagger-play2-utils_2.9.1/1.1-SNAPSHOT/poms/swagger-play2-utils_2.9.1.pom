@@ -80,6 +80,12 @@
     </dependencies>
     <repositories>
         <repository>
+            <id>sonatypesnapshots</id>
+            <name>sonatype-snapshots</name>
+            <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+            <layout>default</layout>
+        </repository>
+        <repository>
             <id>javanet</id>
             <name>java-net</name>
             <url>http://download.java.net/maven/2/</url>

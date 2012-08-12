@@ -68,6 +68,12 @@
     </dependencies>
     <repositories>
         <repository>
+            <id>sonatypesnapshots</id>
+            <name>sonatype-snapshots</name>
+            <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+            <layout>default</layout>
+        </repository>
+        <repository>
             <id>sonatypereleases</id>
             <name>sonatype-releases</name>
             <url>https://oss.sonatype.org/content/repositories/releases/</url>
